@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <!-- --NAV BAR START-- -->
+      <nav class="navbar">
+        <div class="navbar__elements-left">
+          <div class="navbar__item-logo">
+            <a href="../index.html">
+              <img
+                src="../assets/icons/Telia_Logotype_RGB_Purple.svg"
+                alt="Telia logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="navbar__elements-center">
+          <ul class="navbar__item-list">
+            <li class="navbar__item">
+              <a href="./mobil.html">Mobil</a>
+            </li>
+            <li class="navbar__item">TV</li>
+            <li class="navbar__item">Internett</li>
+            <li class="navbar__item">
+              <a href="./hjelp.html">Hjelp</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar__elements-right">
+          <div class="navbar__item-search">
+            <a href="./search.html">
+              <img
+                src="../assets/icons/Telia-icons-purple/search.svg"
+                alt="Search icon"
+              />
+            </a>
+            <label>Søk</label>
+          </div>
+          <div class="navbar__item-login">
+            <a href="./login.html">
+              <img
+                src="../assets/icons/Telia-icons-purple/login.svg"
+                alt="Log inn icon"
+              />
+            </a>
+            <label>Logg inn</label>
+          </div>
+        </div>
+      </nav>
+      <!-- --NAV BAR END-- -->
+       
+    </header>
+    <main>
+      <div class="beta-checkout-page__heading-container">
+        <span
+          class="beta-checkout-page__step-indicator"
+          data-cy="step-indicator"
+          >
+          <div class="step-indicator">
+            <ol class="step-indicator__list">
+              <li class="step-indicator__wrapper">
+                <div class="step-indicator__element">
+                  <div class="step-indicator__step step-indicator__step--active">1</div>
+                  <span class="step-indicator__label step-indicator__label--active">Navn</span>
+                </div>
+                <span class="step-indicator__line"></span>
+              </li>
+              <li class="step-indicator__wrapper">
+                <div class="step-indicator__element">
+                  <div class="step-indicator__step step-indicator__step--active">2</div>
+                  <span class="step-indicator__label step-indicator__label--active">Kontakt</span>
+                </div>
+                <span class="step-indicator__line"></span>
+              </li>
+              <li class="step-indicator__wrapper">
+                <div class="step-indicator__element">
+                  <div class="step-indicator__step step-indicator__step--active">3</div>
+                  <span class="step-indicator__label step-indicator__label--active">Adresse</span>
+                </div>
+                <span class="step-indicator__line"></span>
+              </li>
+              <li class="step-indicator__wrapper">
+                <div class="step-indicator__element">
+                  <div class="step-indicator__step">4</div>
+                  <span class="step-indicator__label">Passord</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </span>
+      </div>
+
+      <h2>Hva er din addresse?</h2>
+      <div class="form-container">
+        <form class="form-fields" onsubmit="window.location.href='../pages/register_4.html'; return false;">
+          <label for="city">By:</label>
+          <input
+            type="text"
+            id="city"
+            name="city"
+            class="city"
+            required
+            />
+
+          <label for="zip">Postkode:</label>
+          <input
+            type="text"
+            id="zip"
+            name="zip"
+            class="zip"
+            required
+            />
+
+            <label for="address">Addresse:</label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            class="address"
+            required
+            />
+
+            <button class="submit-button" type="submit">
+              <img src="../assets/icons/telia-icons-purple/arrow-right.svg" alt="Pil mot høyre">
+            </button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

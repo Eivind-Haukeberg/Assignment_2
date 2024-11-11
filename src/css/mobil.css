@@ -1,0 +1,121 @@
+
+
+main {
+    margin: 0;
+    padding: 2%;
+}
+
+.mobile-container {
+    padding: 2%;
+    text-align: center;
+    background-color: var(--light-gray);
+}
+
+.mobile-collection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.mobile-collection__item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    max-height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mobile-collection__item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mobile-collection__item img {
+    height: 30vh;
+    max-width: 100%; /* Prevent overflow */
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.mobile-collection__item p {
+    margin: 5px 0;
+}
+
+
+.underline {
+    height: 2px;
+    background: var(--core-purple);
+    margin: 0 auto; /* I had to google to make it center, margin 0 auto centered it. I need help understanding this */
+    transition: width 0.8s;
+    width: 10%;
+}
+
+
+.mobile-collection__item:hover .underline {
+    width: 60%;
+}
+
+.mobile-price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* TEXT */
+
+.brand-name {
+    font-family: "TeliaSans-Bold";
+    font-size: 0.8rem;
+}
+
+.model-name {
+    font-family: "TeliaSans-Bold";
+    font-size: 1.2rem;
+}
+
+.mobile-price-nok {
+    font-family: "TeliaSans-Bold";
+    font-size: 2rem;
+}
+
+.mobile-price-md {
+    font-family: "TeliaSans-Bold";
+    font-size: 0.8rem;
+}
+
+.small-print {
+    font-size: 0.7rem;
+}
+
+
+
+/* Media query for smaller screens */
+
+@media (max-width: 1200px) {
+    .mobile-collection {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .mobile-collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .mobile-collection {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile-price-nok {
+        font-size: 1.5rem; /* Adjust font size for prices */
+    }
+}
+
+

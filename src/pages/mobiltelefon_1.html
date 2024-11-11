@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/mobiltelefon_1.css" />
+    <title>Mobiltelefon 1</title>
+  </head>
+  <body>
+    <header>
+
+      <!-- --NAV BAR START-- -->
+      <nav class="navbar">
+        <div class="navbar__elements-left">
+          <div class="navbar__item-logo">
+            <a href="../index.html">
+              <img
+                src="../assets/icons/Telia_Logotype_RGB_Purple.svg"
+                alt="Telia logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="navbar__elements-center">
+          <ul class="navbar__item-list">
+            <li class="navbar__item">
+              <a href="./mobil.html">Mobil</a>
+            </li>
+            <li class="navbar__item">TV</li>
+            <li class="navbar__item">Internett</li>
+            <li class="navbar__item">
+              <a href="./hjelp.html">Hjelp</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar__elements-right">
+          <div class="navbar__item-search">
+            <a href="./search.html">
+              <img
+                src="../assets/icons/Telia-icons-purple/search.svg"
+                alt="Search icon"
+              />
+            </a>
+            <label>Søk</label>
+          </div>
+          <div class="navbar__item-login">
+            <a href="./login.html">
+              <img
+                src="../assets/icons/Telia-icons-purple/login.svg"
+                alt="Log inn icon"
+              />
+            </a>
+            <label>Logg inn</label>
+          </div>
+        </div>
+      </nav>
+      <!-- --NAV BAR END-- -->
+
+    </header>
+
+
+    <main>
+      <div class="product-container">
+        <div class="product__item1">
+            <img src="../assets/images/mobile-images/Galaxy_S24_Ultra_Titanium_Gray_01_AI.png" alt="Galaxy S24 Ultra">
+            <p class="brand-name">Samsung</p>
+            <p class="model-name">Galaxy S24 Ultra</p>
+            <div class="underline"></div>
+            <p>Delbetaling fra</p>
+            <span class="mobile-price-container"><p class="mobile-price-nok">604 ,-</p><p class="mobile-price-md">pr md.</p></span>
+            <p class="small-print">Med 24 md. rentefri delbetaling.</p>
+            <p class="small-print">Minste totalpris med Telia X Max i 12 md. 21348,-</p>
+
+            <h2>Produktdetaljer</h2>
+            <ul>
+                <li><strong>Skjerm:</strong> 6.8 tommer Dynamic AMOLED 2X</li>
+                <li><strong>Prosessor:</strong> Snapdragon 8 Gen 3</li>
+                <li><strong>Kamera:</strong> Quad-kamera system</li>
+                <li><strong>Batteri:</strong> 5000 mAh med hurtiglading</li>
+                <li><strong>Vann- og støvbestandig:</strong> IP68</li>
+            </ul>
+        </section>
+
+        </section>
+        </div>
+        <div class="product__item2">
+          <h2>Bestillingsinformasjon</h2>
+          <form id="order-form">
+              <div class="form-group">
+                  <label for="name">Navn:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="address">Adresse:</label>
+                  <input type="text" id="address" name="address" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="phone">Telefon:</label>
+                  <input type="tel" id="phone" name="phone" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="email">E-post:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              
+              <h3>Betalingsinformasjon</h3>
+              
+              <div class="form-group">
+                  <label for="card-number">Kortnummer:</label>
+                  <input type="text" id="card-number" name="card-number" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="expiry">Utløpsdato (MM/ÅÅ):</label>
+                  <input type="text" id="expiry" name="expiry" required>
+              </div>
+              
+              <div class="form-group">
+                  <label for="cvc">CVC:</label>
+                  <input type="text" id="cvc" name="cvc" required>
+              </div>
+              
+              <button type="submit" class="cta-button">Fullfør bestilling</button>
+          </form>
+        </div>
+    </div>
+  </main>
+
+  <footer></footer>
+  </body>
+</html>
