@@ -44,3 +44,35 @@ main {
 label {
     margin-right: 10px;
 }
+
+
+/* TEXT */
+
+.brand-name {
+    font-family: "TeliaSans-Bold";
+    font-size: 0.8rem;
+}
+
+.model-name {
+    font-family: "TeliaSans-Bold";
+    font-size: 1.2rem;
+}
+
+.mobile-price-nok {
+    font-family: "TeliaSans-Bold";
+    font-size: 2rem;
+}
+
+.mobile-price-md {
+    font-family: "TeliaSans-Bold";
+    font-size: 0.8rem;
+}
+
+.small-print {
+    font-size: 0.7rem;
+}
+
+.product-details {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
