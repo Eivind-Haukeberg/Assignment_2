@@ -7,6 +7,7 @@ Netlify: https://candidate-18-assignment-2.netlify.app/pages/mobil
 Description: On this page you can access the Mobile section:
 
 This assignment was about creating a page with many items in a grid with information under the image. The mobile page is clickable and will lead you to a page with a grid like this.
+BONUS: on this assignment the banner on home is also clickable, to do a register journey.
 
 Information: Telia: https://www.Telia.no/
 
